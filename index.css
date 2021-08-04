@@ -37,34 +37,43 @@ blockquote, q {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
 }
+
+
+
+
+
+
+
+
+
 
 /* General Styles */
 html{
     font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
 }
-
 body{
     font-size: 1.6rem;
     line-height: 1.5;
     color: #4f4f4f; /* accessibility purposes because black on white is harsh on the eyes */
 }
-
 section{
     padding: 4% 0;
 }
-
 a{
     text-decoration: none;
 }
-
-/* Header Section Styles */
-nav{
-    padding: 2% 0;
+span{
+    font-weight:bold;
 }
 
-nav a{
+
+/* Header Section Styles */
+header nav{
+    padding: 4% 0;
+}
+header nav a{
     display: inline-block;
     padding: 1% 0;
     width: 10%;
@@ -72,21 +81,19 @@ nav a{
     text-align: center;
     color: #fff;
 }
-
-.orange{
+header nav .orange{
     background-color: #ff764e;
     margin-left: 10%;
 }
-
-.blue{
+header nav .blue{
     background-color: #5ed3eb;
     margin: 0 24%;
 }
-
-.yellow{
+header nav .yellow{
     background-color: #ffc69d;
     margin-right: 10%;
 }
+
 
 /* Top Section Styles */
 .top{
@@ -96,18 +103,120 @@ nav a{
     text-align: center;
     display: inline-block;
 }
-
 .left{
-    width: 35%;
+    width: 37%;
 }
-
 .left img{
     width: 80%;
     border-radius: 50%;
 }
-
 .right{
     width: 60%;
     position: absolute;
-    top: 45%;
+    top: 13%;
+}
+.right h1{
+    font-size: 7.5rem;
+    font-family: 'Chelsea Market', cursive;
+}
+.right h2{
+    font-size: 2.5rem;
+    margin: 6% 10%;
+}
+.right p{
+    font-size: 2.5rem;
+    margin: 6% 18%;
+}
+
+
+/* Paragraph block, or pblock, Styles */
+.pblock{
+    background-color: #DDB9A3;
+    margin:2% 2%;
+    padding: 1% 0;
+}
+#one{
+    color:#fff;
+    font-size:2.5rem;
+    margin: 0 3%;
+    padding-bottom:2%;
+    text-align:center;
+}
+#two{
+    color:#fff;
+    font-size:2.5rem;
+    margin:0 3%;
+    padding-top:2%;
+    text-align:center;
+}
+
+
+/* Middle Section Styles */
+.mid{
+    text-align:center;
+    font-size: 1.6rem;
+}
+.first{
+    padding:2% 0;
+}
+.first img{
+    width: 25%;
+    height: 200px;
+}
+.first p{
+    margin:0 38.5%;
+}
+.second{
+    padding:2% 0;
+}
+.second img{
+    width:25%;
+    height:200px;
+}
+.second p{
+    margin:0 38.5%;
+}
+
+
+/* Footer Image */
+footer{
+    display: inline-block;
+    position:relative;
+    width:100%;
+    margin-bottom: 0;
+}
+footer img{
+    width:100%;
+    padding-top: 5%;
+    padding-bottom: 0;
+}
+.footerspace{
+    position: absolute;
+    background-color:#F9E7DC;
+    bottom:0;
+    width: 100%;
+    padding: 2% 0;
+} 
+footer nav{
+    padding: 4% 0;
+}
+footer nav a{
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+footer nav .orange{
+    background-color: #ff764e;
+    margin-left: 10%;
+}
+footer nav .blue{
+    background-color: #5ed3eb;
+    margin: 0 24%;
+}
+footer nav .yellow{
+    background-color: #ffc69d;
+    margin-right: 10%;
 }
